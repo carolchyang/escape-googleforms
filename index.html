@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./dist/css/tailwind.css">
+</head>
+<body>
+  <form method="POST"
+   action="https://docs.google.com/forms/d/e/1FAIpQLScS2BPEDClUYm3q1-uMiQBhGhgG5kFqAmPLnCHRnHHLjSpkEA/formResponse"
+   class="max-w-[834px] mx-auto px-2 px-md-4 py-6">
+    <h1 class="mb-6 text-center text-[32px]">六角西餐廳</h1>
+    <div class="block md:flex mb-4">
+      <div class="flex-1 mr-2 mb-4 md:mb-0">
+        <label for="name" class="block mb-2">姓名</label>
+        <input type="text" name="entry.284934240" id="name" class="w-full border p-1.5 border-muted" placeholder="請輸入姓名" required>
+      </div>
+      <div class="flex-1">
+        <label for="tel" class="block mb-2">電話</label>
+        <input type="tel" name="entry.397433066" id="tel" class="w-full p-1.5 border border-muted" placeholder="請輸入電話" required>
+      </div>
+    </div>
+    <div class="mb-4">
+      <label for="date" class="block mb-2">日期</label>
+      <input type="date" name="entry.980192112" id="date" class="w-full px-1.5 py-[5px] border border-muted" required>
+    </div>
+    <div class="mb-4">
+      <label for="num" class="block mb-2">用餐人數</label>
+      <select name="entry.2014085163" id="num" class="w-full p-1.5 border border-muted" required>
+        <option selected disabled hidden>請輸入用餐人數</option>
+        <option value="1">1 位</option>
+        <option value="2">2 位</option>
+        <option value="3">3 位</option>
+        <option value="4">4 位</option>
+        <option value="5">5 位</option>
+        <option value="6">6 位</option>
+        <option value="7">7 位</option>
+        <option value="8">8 位</option>
+        <option value="9">9 位</option>
+        <option value="10">10 位</option>
+      </select>
+    </div>
+    <div class="mb-6">
+      <h3 class="mb-2">其他項目</h3>
+      <div class="mb-2">
+        <input type="checkbox" name="entry.725412583" id="childSeat" value="需要兒童座椅">
+        <label for="childSeat">需要兒童座椅</label>
+      </div>
+      <div class="mb-2">
+        <input type="checkbox" name="entry.725412583" id="vegetarianMeal" value="素食餐點">
+        <label for="vegetarianMeal">素食餐點</label>
+      </div>
+      <div>
+        <input type="checkbox" name="entry.725412583" id="smokingZone" value="吸煙區">
+        <label for="smokingZone">吸煙區</label>
+      </div>
+    </div>
+    <button type="submit" class="block w-full p-[7px] bg-dark text-white">送出</button>
+  </form>
+</body>
+</html>

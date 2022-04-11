@@ -1,0 +1,16 @@
+{
+  "name": "escape-googleforms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i  ./src/css/tailwind.css -o ./dist/css/tailwind.css --watch",
+    "build": "npx tailwindcss -i  ./src/css/tailwind.css -o ./dist/css/tailwind.css --minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
